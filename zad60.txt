@@ -1,0 +1,58 @@
+
+
+<html>
+ <head>
+
+ <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <style >
+  @import url("zad60.css");
+ </style>
+ </head>
+<body>
+
+<div id="blok1">blok1 Wiktoria Bogdziewicz</div>
+<div id="blok2">blok2 Wiktoria Bogdziewicz</div>
+<div id="blok3">blok3 Wiktoria Bogdziewicz</div>
+
+   <!-- hover; zmiany pewnych elementów po najechaniu na nie urz¹dzeniem
+   wskazuj¹cym (np. mysz¹)
+   Wiktoria Bogdziewicz !-->
+</body>
+</html>
+
+
+----css----
+
+
+ div#blok1 {
+ width: 603px;
+ background : green;
+ }
+ div#blok2 {
+ width: 603px;
+ background : green;
+ }
+ div#blok3 {
+ width: 603px;
+ background : green;
+ }
+
+div#blok1:hover{
+background : red;
+font-size: 21mm;
+}
+
+div#blok2:hover{
+background : silver;
+font-size: 21mm;
+}
+
+div#blok3:hover{
+background : blue;
+font-size: 21mm;
+}
+
+
+   <!-- hover; zmiany pewnych elementów po najechaniu na nie urz¹dzeniem
+   wskazuj¹cym (np. mysz¹)
+   Wiktoria Bogdziewicz !-->

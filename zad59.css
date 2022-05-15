@@ -1,0 +1,13 @@
+a
+{
+font-size: 18pt;
+text-decoration: none;
+}
+A:link 
+{
+color: blue;
+}
+
+<!-- text-decoration: none; → Brak dekoracji tekstu, czyli brak linii.
+    text-decoration: underline; →  Dekoracja tekstu, podkreślenie
+    Wiktoria Bogdziewicz !-->
