@@ -1,0 +1,33 @@
+<html>
+<head>
+<title> Zadanie 82</title>
+<script language="JavaScript">
+function pushbutton() {
+alert("Czesc !");}
+</script>
+</head>
+<body>
+<font color="red" >Bogdziewicz </font><br>
+<font color="green" >dzis=new Date()---> Utworzenie obiektu z dzisiejszą datą<br>
+dzis=dzis.getHours()---> Godzina dnia w zapisie 24-godzinnym (0–23).<br>
+dzis=dzis.getMinutes()---> Minuta godziny (0–59).<br>
+dzis=dzis.getMonth()---> Miesiąc roku (0–11).<br>
+dzis=dzis.getDate()---> Dzień miesiąca (1–31).<br>
+dzis=dzis.getFullYear()--->  Rok w postaci czterocyfrowej.<br></font>
+Ostatnio zmodyfikowany
+<script language="LiveScript">
+document.write(document.lastModified,"<br>")
+</script>
+<form>
+<input type="button" name="Button1" value="Naciśnij mnie" onclick="pushbutton()">
+</form>
+<script language="JavaScript">
+
+dzis = new Date()
+document.write("<br>Aktualny czas : ",dzis.getHours(),":",dzis.getMinutes())
+
+document.write("<br>Aktualna data : ",dzis.getDate(),",",dzis.getMonth()+1,",",dzis.getFullYear());
+
+</script>
+</body>
+</html>
